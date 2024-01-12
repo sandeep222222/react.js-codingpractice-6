@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cash-container {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 15px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  max-width: 350px;
+}
+
+.user-details-container {
+  display: flex;
+}
+
+.intinal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+}
+
+.para {
+  font-family: 'roboto';
+  color: #7c3aed;
+  font-size: 20px;
+}
+
+.name {
+  color: #c7d2fe;
+  font-family: 'roboto';
+  font-size: 25px;
+  margin-left: 8px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-betwwen;
+  margin-top: 24px;
+}
+
+.your-balace {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #585076;
+  margin-top: 4px;
+}
+
+.balance {
+  font-family: 'roboto';
+  color: #c7d2fe;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 180px;
+}
+
+.currency {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #585076;
+}
+
+.withdraw {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #c7d2fe;
+}
+
+.choose {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #585076;
+}
+
+.domestnation-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}

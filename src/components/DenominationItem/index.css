@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.denominationItem {
+  list-style-type: none;
+  width: 48px;
+  margin-bottom: 16px;
+}
+
+.denomination-button {
+  background-color: #382f5a;
+  color: #c7d2fe;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500px;
+  border-radius: 5px;
+  border: 1px solid #c7d2fe;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100%;
+}
